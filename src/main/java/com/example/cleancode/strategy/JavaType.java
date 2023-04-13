@@ -3,9 +3,6 @@ package com.example.cleancode.strategy;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
-import java.util.HashMap;
-import java.util.Map;
-
 @RequiredArgsConstructor
 @Getter
 public enum JavaType {

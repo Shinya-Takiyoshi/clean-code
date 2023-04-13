@@ -3,7 +3,7 @@ package com.example.cleancode.strategy
 import spock.lang.Specification
 
 class ReadJavaSpec extends Specification {
-    def "Execute"() {
+    def "#javaTypeの時は、#expectedである"() {
         given:
         ReadJava readJava = new ReadJava()
         expect:
