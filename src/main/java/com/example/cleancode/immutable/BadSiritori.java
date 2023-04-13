@@ -1,4 +1,4 @@
-package com.example.cleancode;
+package com.example.cleancode.immutable;
 
 import lombok.NonNull;
 
