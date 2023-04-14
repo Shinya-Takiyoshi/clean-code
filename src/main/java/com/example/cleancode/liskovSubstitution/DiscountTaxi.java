@@ -1,6 +1,6 @@
 package com.example.cleancode.liskovSubstitution;
 
-public class DiscountTaxi implements Taxi{
+public class DiscountTaxi implements Taxi {
     @Override
     public Money of() {
         return new Money(3000);
