@@ -9,12 +9,12 @@ public class BadIfNested {
     public void execute(int amount) {
         if (amount > 0) {
             System.out.println("1以上である");
-           if(amount > 100){
-               System.out.println("100以上である");
-               if(amount == 200){
-                   System.out.println("200である");
-               }
-           }
+            if (amount > 100) {
+                System.out.println("100以上である");
+                if (amount == 200) {
+                    System.out.println("200である");
+                }
+            }
         }
     }
 
