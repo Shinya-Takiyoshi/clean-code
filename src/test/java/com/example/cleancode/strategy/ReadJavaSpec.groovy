@@ -1,11 +1,13 @@
 package com.example.cleancode.strategy
 
+import com.example.cleancode.strategy.execute.ReadJava
 import spock.lang.Specification
 
 class ReadJavaSpec extends Specification {
     def "#javaTypeの時は、#expectedである"() {
         given:
-        ReadJava readJava = new ReadJava()
+        JavaFactory javaFactory = new JavaFactory();
+        ReadJava readJava = new ReadJava(javaFactory)
         expect:
         readJava.execute(javaType) == expected
         where:

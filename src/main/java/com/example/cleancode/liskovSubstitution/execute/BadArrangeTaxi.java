@@ -1,4 +1,9 @@
-package com.example.cleancode.liskovSubstitution;
+package com.example.cleancode.liskovSubstitution.execute;
+
+import com.example.cleancode.liskovSubstitution.DiscountTaxi;
+import com.example.cleancode.liskovSubstitution.LuxuryTaxi;
+import com.example.cleancode.liskovSubstitution.Money;
+import com.example.cleancode.liskovSubstitution.Taxi;
 
 public class BadArrangeTaxi {
 
