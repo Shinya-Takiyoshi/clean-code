@@ -7,7 +7,7 @@ public class DiscountTaxi implements Taxi{
     }
 
     @Override
-    public Money addFare() {
+    public Money addLongFare() {
         return of().add(new Money(3000));
     }
 }

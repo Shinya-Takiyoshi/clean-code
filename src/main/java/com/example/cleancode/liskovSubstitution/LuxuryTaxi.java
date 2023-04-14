@@ -7,7 +7,7 @@ public class LuxuryTaxi implements Taxi{
     }
 
     @Override
-    public Money addFare() {
+    public Money addLongFare() {
         return of().add(new Money(6000));
     }
 }
